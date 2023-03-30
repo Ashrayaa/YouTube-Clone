@@ -9,7 +9,7 @@ const Head = () => {
     dispatch(toggleMenu());
   }
   return (
-    <div className="grid grid-flow-col p-4">
+    <div className="grid grid-flow-col p-6">
       {/* Menu and Logo */}
       <div className="flex gap-3 col-span-1">
         <svg
